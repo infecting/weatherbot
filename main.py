@@ -44,4 +44,4 @@ async def weather(ctx, *, zip_code):
     feels = round(feels, 1)
     message = f'Currently it is {temp} degrees in {name} and feels like {feels} degrees'
     await ctx.send(message)
-bot.run("Njc1NTYwNjkzODg5NjMwMjA4.Xj5Hgw.Y_DoUv2QqhmnbTFceWvor-X8wW0")
+bot.run(Token)
